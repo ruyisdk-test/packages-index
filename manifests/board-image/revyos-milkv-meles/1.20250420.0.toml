@@ -45,4 +45,3 @@ strategy = "fastboot-v1"
 boot = "boot-meles-20250420_084525.ext4"
 root = "root-meles-20250420_084525.ext4"
 
-# Manually created by Kosaka Reiya
