@@ -5,9 +5,6 @@ desc = "RevyOS 20230510 image for Sipeed LicheePi 4A"
 upstream_version = "20230510"
 vendor = { name = "PLCT", eula = "" }
 
-[[metadata.service_level]]
-level = "good"
-
 [[distfiles]]
 name = "boot-20230510-230240.ext4"
 size = 62914560
