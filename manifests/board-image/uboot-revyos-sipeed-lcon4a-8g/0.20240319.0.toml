@@ -1,7 +1,7 @@
 format = "v1"
 
 [metadata]
-desc = "U-Boot image for Sipeed Lichee Console 4A (8G RAM) and RevyOS 20240202"
+desc = "U-Boot image for Sipeed Lichee Console 4A (8G RAM) and RevyOS 20240319"
 vendor = { name = "Sipeed", eula = "" }
 
 [[distfiles]]
@@ -27,3 +27,4 @@ strategy = "fastboot-v1(lpi4a-uboot)"
 
 [provisionable.partition_map]
 uboot = "u-boot-with-spl-console8g.bin"
+
