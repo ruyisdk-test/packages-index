@@ -26,4 +26,3 @@ strategy = "dd-v1"
 
 [provisionable.partition_map]
 disk = "arduino-milkv-duo-sd-v1.1.4.img"
-
