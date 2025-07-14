@@ -2,8 +2,8 @@ format = "v1"
 
 [metadata]
 desc = "RevyOS 20240601 image for Sipeed LicheePi 4A"
-upstream_version = "20240601"
 vendor = { name = "PLCT", eula = "" }
+upstream_version = "20240601"
 
 [[distfiles]]
 name = "boot-lpi4a-20240601_180941.ext4.zst"
