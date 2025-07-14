@@ -3,6 +3,7 @@ format = "v1"
 [metadata]
 desc = "RevyOS 20241229 image for Sipeed LicheePi 4A"
 vendor = { name = "PLCT", eula = "" }
+upstream_version = "20241229"
 
 [[distfiles]]
 name = "root-lpi4a-20241229_032148.ext4.zst"
