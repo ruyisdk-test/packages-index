@@ -3,6 +3,7 @@ format = "v1"
 [metadata]
 desc = "Official Arduino SDK image for Milk-V Duo (64M RAM, SD card)"
 vendor = { name = "Milk-V", eula = "" }
+upstream_version = "v1.1.4"
 
 [[distfiles]]
 name = "arduino-milkv-duo-sd-v1.1.4.img.zip"
