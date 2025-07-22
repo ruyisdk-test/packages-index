@@ -2,8 +2,8 @@ format = "v1"
 
 [metadata]
 desc = "RevyOS 20240720 image for Milk-V Meles"
-upstream_version = "20240720"
 vendor = { name = "Milk-V", eula = "" }
+upstream_version = "20240720"
 
 [[distfiles]]
 name = "boot-meles-20240720_171949.ext4.zst"
@@ -41,4 +41,3 @@ strategy = "fastboot-v1"
 [provisionable.partition_map]
 boot = "boot-meles-20240720_171949.ext4"
 root = "root-meles-20240720_171949.ext4"
-
