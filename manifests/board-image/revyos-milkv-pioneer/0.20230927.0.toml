@@ -26,4 +26,3 @@ strategy = "dd-v1"
 
 [provisionable.partition_map]
 disk = "revyos-sg2042-20230927-220632.img"
-
