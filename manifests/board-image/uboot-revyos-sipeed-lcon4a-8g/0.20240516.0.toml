@@ -1,0 +1,30 @@
+format = "v1"
+
+[metadata]
+desc = "U-Boot image for Sipeed Lichee Console 4A (8G RAM) and RevyOS 20240516"
+vendor = { name = "Sipeed", eula = "" }
+
+[[distfiles]]
+name = "u-boot-with-spl-console8g.bin"
+unpack = "raw"
+size = 1008264
+urls = [
+  "https://github.com/0x754C/sipeed-th1520-laptop-extra/releases/download/20240516/u-boot-with-spl-console8g.bin",
+]
+restrict = ["mirror"]
+
+[distfiles.checksums]
+sha256 = "2d8103ea0978409c5e52606544f7883e447ee283485925cdbfcd918eea42b3d0"
+sha512 = "21c338964dc5079459178f368e3a54ebf08bf5f6b378335fee86ba8d9da049fb604d1de7bdb2f76fa3634b47b3a9e3aea0e6a3b77eb7f71bf929ff07e241be5b"
+
+[blob]
+distfiles = [
+  "u-boot-with-spl-console8g.bin",
+]
+
+[provisionable]
+strategy = "fastboot-v1(lpi4a-uboot)"
+
+[provisionable.partition_map]
+uboot = "u-boot-with-spl-console8g.bin"
+
